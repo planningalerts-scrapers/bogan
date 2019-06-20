@@ -21,7 +21,7 @@ switch(getenv('MORPH_PERIOD')) {
             $sdate = date('01/01/Y', strtotime($matches[0]. '-01-01'));
             $edate = date('31/12/Y', strtotime($matches[0]. '-12-31'));
         } else {
-            $sdate = date('d/m/Y', strtotime('-10 days'));
+            $sdate = date('d/m/Y', strtotime('-30 days'));
             $edate = date('d/m/Y');
         }
         break;

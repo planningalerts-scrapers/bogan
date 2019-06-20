@@ -8,7 +8,7 @@
 
 Setup MORPH_PERIOD for data recovery, available options are
 
-* thisweek (default, today -10 days)
+* thisweek (default, today -30 days)
 * thismonth
 * lastmonth
 * year (eg. 2016)
